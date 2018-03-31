@@ -2,7 +2,11 @@ deployment:
   prod:
     branch: master
     heroku:
-      appname: your-heroku-app-name
+      appname: foo-bar-123
+  staging:
+    branch: master
+    heroku:
+      appname: foo-bar-123
 machine:
   node:
     version: 8.1.4
