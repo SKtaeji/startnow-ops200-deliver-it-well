@@ -38,12 +38,12 @@ describe('server/app.js', function() {
     });
   });
 
-  it('page says goodbye forever', (done) => {
+  it('page says i did it', (done) => {
     chai.request(server)
       .get('/')
       .end((err, res) => {
         expect(err).not.exist;
-        expect(JSON.stringify(res.text)).to.contain('Goodbye Forever');
+        expect(JSON.stringify(res.text)).to.contain('I Did It!');
         done();
       });
     });
