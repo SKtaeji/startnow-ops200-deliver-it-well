@@ -3,10 +3,6 @@ deployment:
     branch: master
     heroku:
       appname: sk-startnow-deliver-it-well
-  staging:
-    branch: master
-    heroku:
-      appname: sk-startnow-deliver-it-well
 machine:
   node:
     version: 8.1.4
