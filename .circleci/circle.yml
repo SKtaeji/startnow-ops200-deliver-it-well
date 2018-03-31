@@ -2,11 +2,11 @@ deployment:
   prod:
     branch: master
     heroku:
-      appname: foo-bar-123
+      appname: startnow-ops200-deliver-it-well
   staging:
     branch: master
     heroku:
-      appname: foo-bar-123
+      appname: startnow-ops200-deliver-it-well
 machine:
   node:
     version: 8.1.4
